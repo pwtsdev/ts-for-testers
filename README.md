@@ -107,4 +107,4 @@ As testers, we strive to **break things better**. TypeScript helps you:
 
 This course is here to help you **level up**. Ready? Let’s code 🎯.
 
-Created with 💙 by [pwts.dev](https://pwts.dev) / [@bkita](https://github.com/bkita)
+Created with 💙 by [<pwts.dev>](https://pwts.dev) / [@bkita](https://github.com/bkita)

@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+export {};
 
 // let – a variable you can change
 let color = 'black';

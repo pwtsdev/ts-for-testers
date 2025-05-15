@@ -21,7 +21,7 @@ console.log(weatherForecast);
 const ENV = 'PROD';
 console.log(ENV === 'PROD' ? 'Odpalam testy na prodzie!' : 'Odpalam testy na QA!');
 
-let statusCode = '500';
+let statusCode = '200';
 
 if (statusCode.startsWith('2')) {
   console.log('Status code: 2xx');
@@ -31,20 +31,25 @@ if (statusCode.startsWith('2')) {
   console.log('Unknown status code');
 }
 
-// if (prawda) {
-//     wykonaj kod jeśli prawda
-// }
+// switch-case
+let statusClass = statusCode.charAt(0);
 
-// if (prawda) {
-//     wykonaj kod jeśli prawda
-// } else {
-//     wykonaj kod jeśli fałsz
-// }
-
-// if (prawda) {
-//     wykonaj kod jeśli prawda
-// } else if (inny warukek prawda) {
-//     wykonaj kod jeśli inny warunek
-// } else {
-//     wykonaj kod w pozostałych przypadkach
-// }
+switch (statusClass) {
+  case '1':
+    console.log('Status code: 1xx');
+    break;
+  case '2':
+    console.log('Status code: 2xx');
+    break;
+  case '3':
+    console.log('Status code: 3xx');
+    break;
+  case '4':
+    console.log('Status code: 4xx');
+    break;
+  case '5':
+    console.log('Status code: 5xx');
+    break;
+  default:
+    console.log('Unknown status code');
+}

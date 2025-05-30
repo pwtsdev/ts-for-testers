@@ -26,7 +26,6 @@ console.log(boys.at(-1));
 
 logger('Nadpisywanie elementu na danym indexie:');
 boys[0] = 'Marcin';
-console.log(boys);
 showCollection(boys);
 
 const newBoys = boys.with(1, 'Grzesiek');

@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { logger, showCollection } from '../../utils/logger';
 
 logger('Tworzenie listy z elementami:');

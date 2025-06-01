@@ -27,7 +27,8 @@ export const showCollection = (collection: unknown): void => {
     collectionType = 'Array';
   } else if (collection instanceof Map) {
     collectionType = 'Map';
-  } else {
+  } else if (collection instanceof Set) collectionType = 'Set';
+  else {
     collectionType = 'Unknown or not a collection';
   }
 

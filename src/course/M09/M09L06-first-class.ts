@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable @typescript-eslint/no-useless-constructor */
 /* eslint-disable no-console */
 import { logger } from '../../utils/logger';
 
